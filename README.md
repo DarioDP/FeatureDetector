@@ -1,6 +1,8 @@
 # FeatureDetector
 
-This is an Android plugin for Apache Cordova / Phonegap. It allows you to check if certain hard- or software features are present on the current device.
+This is an Android plugin for Apache Cordova / Phonegap. It allows you to check if certain hard- or software features are present on the current device. 
+
+The plugin is available at https://github.com/Airblader/FeatureDetector
 
 ## Installation
 
@@ -8,7 +10,7 @@ This is an Android plugin for Apache Cordova / Phonegap. It allows you to check 
 2. Add `FeatureDetector.js` into your project (somewhere in your `assets/` folder)
 3. Add  the following line to `src/res/xml/config.xml`
 
-    <plugin name="FeatureDetector" value="org.apache.cordova.plugin.FeatureDetector" />
+    `<plugin name="FeatureDetector" value="org.apache.cordova.plugin.FeatureDetector" />`
 
 ## Usage
 
