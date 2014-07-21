@@ -6,7 +6,7 @@ This is an *Android* plugin for Apache Cordova / Phonegap. It allows you to chec
 
 The original plugin is available at https://github.com/Airblader/FeatureDetector
 
-The fork is available at https://github.com/DarioDP/FeatureDetector
+This fork is available at https://github.com/DarioDP/FeatureDetector
 
 
 ### Installation ###
