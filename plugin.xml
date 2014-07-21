@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="org.apache.cordova.plugin.featuredetector" version="0.1">
+    <name>Feature Detector</name>
+    <description>Android Feature Detector</description>
+    <keywords>cordova,feature detector</keywords>
+    <repo>https://github.com/DarioDP/FeatureDetector.git</repo>
+
+    <js-module src="www/FeatureDetector.js" name="FeatureDetector">
+        <clobbers target="plugins.FeatureDetector" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="FeatureDetector">
+				<param name="android-package" value="org.apache.cordova.plugin.FeatureDetector"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/FeatureDetector.java" target-dir="src/org/apache/cordova/plugin" />
+    </platform>
+
+</plugin>
